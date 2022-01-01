@@ -5,12 +5,12 @@ import org.testng.annotations.Test;
 
 import basePackage.DriverSetup;
 
-public class TC_001_Basic_login_reset_pass extends DriverSetup {
+public class TC_001_Login_and_Reset_Password extends DriverSetup {
 	
 	public static String baseUrl = "https://rahulshettyacademy.com/locatorspractice/";
 	
 	@Test
-	public static void firstTestCaseToAutomateLogin() throws InterruptedException {
+	public static void AutomateLoginAndResetPassword() throws InterruptedException {
 		
 		driver.get(baseUrl);
 		driver.manage().window().maximize();
